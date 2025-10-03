@@ -1,32 +1,22 @@
-/*
-filename: lab04.css
-author: [Your Name]
-created: [Date]
-last modified: [Date]
-description: Styling for lab04.html
-*/
 
-/* Step 4 - Universal selector */
+
 * { 
     font-family: Calibri, sans-serif; 
-    color: #2F4F4F; /* default dark slate gray */
+    color: #2F4F4F; 
 }
 
-/* Step 3 - Element selectors */
 h1 { 
     color: purple; 
     font-size: 2em; 
     font-weight: bold; 
 }
 
-/* Step 4 - Heading 2 style */
 h2 { 
     color: rgb(0,128,128); 
     font-weight: bold; 
     font-size: 1.5em; 
 }
 
-/* Group selectors */
 aside, footer { 
     font-style: italic; 
 }
@@ -35,13 +25,11 @@ h1, h2, h3 {
     font-family: Arial, sans-serif;
 }
 
-/* Table styling */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-/* ID selectors */
 #images {
     text-align: center;
 }
@@ -50,7 +38,6 @@ table, th, td {
     color: red;
 }
 
-/* Class selectors */
 .special {
     color: darkorange;
     font-weight: bold;
@@ -60,7 +47,6 @@ table, th, td {
     text-align: right;
 }
 
-/* Contextual selectors */
 nav a {
     text-decoration: none;
     padding: 0.2em 0.6em;
@@ -71,7 +57,6 @@ ol ul {
     list-style-type: square;
 }
 
-/* Pseudo-classes */
 aside:hover {
     display: none;
 }
